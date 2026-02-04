@@ -1028,7 +1028,7 @@ where
             snarl_resp.dnd_release_payload::<T>(),
             snarl_resp.hover_pos(),
         ) {
-            snarl.insert_node(pos, node.as_ref().clone());
+            snarl.insert_node(pos.into(), node.as_ref().clone());
         }
     }
 
