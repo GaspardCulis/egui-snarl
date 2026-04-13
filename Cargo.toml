@@ -38,7 +38,7 @@ categories = ["gui", "visualization"]
 
 [features]
 default = ["ui"]
-serde = ["dep:serde", "egui/serde", "slab/serde"]
+serde = ["dep:serde", "egui?/serde", "slab/serde"]
 ui = ["dep:egui", "dep:egui-scale"]
 
 [dependencies]
