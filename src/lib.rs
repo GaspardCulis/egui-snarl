@@ -63,6 +63,8 @@ impl NodePos {
     }
 }
 
+impl Eq for NodePos {}
+
 #[cfg(feature = "ui")]
 impl Into<egui::Pos2> for NodePos {
     fn into(self) -> egui::Pos2 {
